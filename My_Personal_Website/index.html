@@ -5,8 +5,8 @@
     <style>
       body {
         text-align: center;
-        background: url("bg.jpg");
-        background-size: cover;
+        background: url("bg.jpg"); /* relative url */
+        background-size: cover; /* prevents tiled */
         background-position: center;
         color: white;
         font-family: helvetica;
@@ -15,8 +15,8 @@
         font-size: 22px;
       }
       input {
-        border: 0;
-        padding: 10px;
+        border: 0; /* To remove default styles */
+        padding: 10px; /* Add extra space between words and input */
         font-size: 18px;
       }
       input[type="submit"] {
